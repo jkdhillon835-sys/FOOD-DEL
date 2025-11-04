@@ -28,9 +28,11 @@ const App = () => {
 
       <div className="app">
 
-         <img src={assets.mxwezmql} alt="Menu" style={{ maxWidth: '300px', margin: '16px auto', display: 'block' }} />
-
         <Navbar setShowLogin={setShowLogin} />
+        {/* Put your image below navbar, in main space */}
+       <div style={{ textAlign: 'center', margin: '32px 0' }}>
+       <img src={assets.mxwezmql} alt="Menu" style={{ maxWidth: '350px' }} />
+       </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
