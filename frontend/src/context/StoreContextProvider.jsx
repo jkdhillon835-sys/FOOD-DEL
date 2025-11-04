@@ -3,7 +3,7 @@ import { StoreContext } from "./StoreContext";
 import axios from "axios";
 
 const StoreContextProvider = ({ children }) => {
-  const url = "http://localhost:4000";
+  const url = " https://food-del-backend-5wdb.onrender.com";
 
   const [food_list, setFoodList] = useState([]);
   const [cartItems, setCartItems] = useState({});
