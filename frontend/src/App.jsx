@@ -12,7 +12,8 @@ import SearchResults from "./components/SearchResult/SearchResult";
 import FoodDetail from "./components/FoodDetail/FoodDetail";
 import SearchBar from "./components/SearchResult/SearchBar";
 import { food_list } from './assets/assets';
-import { assets } from '../assets/assets';
+import { assets } from './assets/assets';
+
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
