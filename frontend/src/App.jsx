@@ -12,7 +12,7 @@ import SearchResults from "./components/SearchResult/SearchResult";
 import FoodDetail from "./components/FoodDetail/FoodDetail";
 import SearchBar from "./components/SearchResult/SearchBar";
 import { food_list } from './assets/assets';
-import { assets } from './assets/assets';
+
 
 
 const App = () => {
@@ -29,10 +29,6 @@ const App = () => {
       <div className="app">
 
         <Navbar setShowLogin={setShowLogin} />
-        {/* Put your image below navbar, in main space */}
-       <div style={{ textAlign: 'center', margin: '32px 0' }}>
-       <img src={assets.mxwezmql} alt="Menu" style={{ maxWidth: '350px' }} />
-       </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
