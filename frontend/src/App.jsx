@@ -12,13 +12,7 @@ import SearchResults from "./components/SearchResult/SearchResult";
 import FoodDetail from "./components/FoodDetail/FoodDetail";
 import SearchBar from "./components/SearchResult/SearchBar";
 import { food_list } from './assets/assets';
-
-
-
-
-
-
-
+import { assets } from '../assets/assets';
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -32,6 +26,9 @@ const App = () => {
       {showLogin && <LoginPopup setShowLogin={setShowLogin} />}
 
       <div className="app">
+
+         <img src={assets.mxwezmql} alt="Menu" style={{ maxWidth: '300px', margin: '16px auto', display: 'block' }} />
+
         <Navbar setShowLogin={setShowLogin} />
         <Routes>
           <Route path="/" element={<Home />} />
