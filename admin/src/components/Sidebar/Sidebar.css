@@ -1,0 +1,72 @@
+.sidebar {
+  width: 18%;
+  min-height: 100vh;
+  border: 1.5px solid #a9a9a9;
+  border-top: 0;
+  font-size: max(1vw,10px);
+
+}
+
+
+/* Logo or title inside .sidebar */
+.sidebar > h1, .sidebar > .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6347; /* Tomato red */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Sidebar options */
+.sidebar-options {
+  width: 100%;
+  padding-top:50px ;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 500;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.sidebar-option:hover {
+  background-color: #ffe5e5;
+  box-shadow: 0 2px 6px rgba(255, 99, 71, 0.2);
+  color: #d62828;
+}
+
+.sidebar-option.active {
+  border-left: 4px solid #ff6347;
+  background-color: #fff5f5;
+  color: #b22222;
+}
+
+.main-panel {
+  margin-left: 18%;
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.sidebar-option.active{
+    background-color: #fff0ed;
+    border-color: #f9755e;
+}
+
+@media (max-width: 900px) {
+  .sidebar-option p {
+    display: none;
+  }
+}

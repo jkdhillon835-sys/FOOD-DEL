@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "FOOD-DEL",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MY PROJECT"
+	}
+}

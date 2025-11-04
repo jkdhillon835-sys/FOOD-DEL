@@ -1,0 +1,31 @@
+.verify {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Stylish spinner animation */
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #ff5e46; /* Tomato color */
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  animation: spin 1s linear infinite;
+  margin-top: 24px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.verify p {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}

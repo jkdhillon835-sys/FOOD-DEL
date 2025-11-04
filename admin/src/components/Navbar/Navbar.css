@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar.logo {
+    width: mix(10%, 80px);
+}
+
+ .navbar .profile {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%; /* Makes it circular */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a2e; /* Dark base to match your logo */
+  color: gold; /* Matches your initials */
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navbar .profile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px rgba(255, 215, 0, 0.6); /* Gold glow */
+}
