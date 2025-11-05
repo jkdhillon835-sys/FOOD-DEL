@@ -4,8 +4,8 @@ height: 34vw;
 
 margin: 30px auto ;
 
-background: url( 'mxwezmql.png' ) ;
-
+  background: url('/mxwezmql.png');
+ 
 border-radius: 30px;
 
 background-size: contain;
