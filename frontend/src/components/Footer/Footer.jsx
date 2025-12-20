@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
       <hr/> 
       <p className="footer-copyright">
-        © 2025 Food Del — Serving smiles and fresh flavors. All rights reserved by Jasleen kaur.
+        © 2025 Food Del — Serving smiles and fresh flavors. All rights reserved by Jasleen kaur and Harleen Kaur.
       </p>
     </div>
   )
