@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://food-del-frontend-0tsx.onrender.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Explore Menu section -->
+  <url>
+    <loc>https://food-del-frontend-0tsx.onrender.com/#explore-menu</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- App Download section -->
+  <url>
+    <loc>https://food-del-frontend-0tsx.onrender.com/#app-download</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Footer/Contact section -->
+  <url>
+    <loc>https://food-del-frontend-0tsx.onrender.com/#footer</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
+
+
