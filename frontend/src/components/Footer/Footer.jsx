@@ -35,6 +35,7 @@ const Footer = () => {
       <hr/> 
       <p className="footer-copyright">
         © 2025 Food Del — Serving smiles and fresh flavors. All rights reserved by Jasleen kaur and Harleen Kaur.
+        This is a student project, not a real food delivery service.
       </p>
     </div>
   )
