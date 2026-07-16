@@ -72,3 +72,7 @@ Frontend Demo: https://food-del-frontend-0tsx.onrender.com
 - Make sure Node.js and npm are installed.
 - Update `.env` values as per your environment.
 - You can customize products, categories, and UI as needed.
+
+For updates, support and licensing, visit the official product page on Codester:
+https://www.codester.com/items/67791/food-delivery-website-full-stack-code?ref=WebSolutions
+

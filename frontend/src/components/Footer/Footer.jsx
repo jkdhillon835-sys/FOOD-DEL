@@ -37,6 +37,8 @@ const Footer = () => {
         © 2025 Food Del — Serving smiles and fresh flavors. All rights reserved by Jasleen kaur and Harleen Kaur.
         This is a student project, not a real food delivery service.
       </p>
+      <small>Available on <a href="https://www.codester.com/items/67791/food-delivery-website-full-stack-code?ref=WebSolutions" target="_blank">Codester</a></small>
+
     </div>
   )
 }
